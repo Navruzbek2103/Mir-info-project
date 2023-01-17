@@ -18,7 +18,7 @@ const index = () => {
          <nav className="nav">
            <ul className="nav__list">
              <li className="nav__item">
-               <NavLink to="/today" className="nav__item-link">
+               <NavLink to="/" className="nav__item-link">
                  <IoIosToday className='nav__item-link-icon'/>
                  Today
                </NavLink>
