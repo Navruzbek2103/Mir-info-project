@@ -1,7 +1,3 @@
-.today-section{
-  margin-bottom: 80px;
-}
-
 .hot {
   padding: 3px 12px;
   right: 20px;
@@ -17,21 +13,14 @@
   width: 1300px;
   height: 600px;
 }
-.today__title {
-  margin-bottom: 25px;
-  font-size: 34px;
-  line-height: 38px;
-  font-weight: 600;
+.today__card{
+  transition: all .3s ease-in-out;
+  cursor: pointer;
 }
-.today_text {
-  margin: 40px 0px 10px;
-  color: rgb(138, 138, 143);
-  font-size: 13px;
-  line-height: 18.2px;
-  font-family: Arial;
-  text-transform: uppercase;
-  font-weight: 600;
+.today__card:active{
+  transform: scale(0.98);
 }
+
 .card__body--title {
   font-weight: 600;
   font-size: 28px;
@@ -39,4 +28,7 @@
 }
 .comment{
   color: #fff;
+}
+.today__bottom{
+  margin-bottom: 80px;
 }
