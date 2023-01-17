@@ -1,45 +1,46 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
-ol, ul{
+ol,
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-img{
+img {
   vertical-align: middle;
   object-fit: cover;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p{
-  margin: 0;
-<<<<<<< HEAD
-  padding: 0; 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
 }
-.container{
-  max-width: 1440px!important;
+
+.container {
+  max-width: 1440px !important;
   margin: 0 auto !important;
   padding: 0 20px !important;
- }
-=======
-  padding: 0;
 }
 
 /* :root{
   Headerbrown: "#dfgw";
   yellow: "2344"
 } */
->>>>>>> 5ba22aad7bd60e6c9de462b44e0105b367e3e5b0
