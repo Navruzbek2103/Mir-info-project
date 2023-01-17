@@ -1,0 +1,34 @@
+.hot {
+  padding: 3px 12px;
+  right: 20px;
+  top: 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #fff;
+  z-index: 4;
+}
+.img-today {
+  width: 1300px;
+  height: 600px;
+}
+.today__title {
+  margin-bottom: 25px;
+  font-size: 34px;
+  line-height: 38px;
+  font-weight: 600;
+}
+.today_text {
+  margin: 40px 0px 10px;
+  color: rgb(138, 138, 143);
+  font-size: 13px;
+  line-height: 18.2px;
+  font-family: Arial;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.card__body--title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+}
