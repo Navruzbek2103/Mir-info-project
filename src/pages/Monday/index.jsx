@@ -6,8 +6,9 @@ const index = () => {
     <>
       <div className="monday_section w-100">
         <div className="monday_top d-flex justify-content-between w-100 align-items-start ">
-          <div className="monday__top--right w-50">
-            <div className="monday__card position-relative">
+          <div className="monday__top--right w-50 d-flex
+          flex-column g-2">
+            <div className="monday__card position-relative d-flex">
               <img src={Img} className="monday__img rounded-2" alt="monday images" />
               <p className="text-white position-absolute monday__text">Nadal Wins at Roland Garros</p>
             </div>
