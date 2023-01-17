@@ -3,9 +3,9 @@ import "./style.scss";
 const index = () => {
    return (
      <div>
-       <div className="container">
+       {/* <div className="container"> */}
          <h1>Search page</h1>
-       </div>
+       {/* </div> */}
      </div>
    );
 }

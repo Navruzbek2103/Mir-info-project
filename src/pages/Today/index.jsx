@@ -13,7 +13,7 @@ const index = () => {
   return (
     <>
       <section className="w-100%">
-        <div className="container">
+        {/* <div className="container"> */}
           <div className="d-flex flex-column">
             <div className="today-section d-flex flex-column">
               <Week />
@@ -85,7 +85,7 @@ const index = () => {
               <Sunday />
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </section>
     </>
   );

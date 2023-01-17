@@ -1,45 +1,14 @@
-.header{
-  border-top: 1px solid #BFBFBF;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  z-index: 55;
-  background: #fff;
-}
 
-.nav{
 
-  &__list{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
-  }
-
-  &__item{
-    // width: calc(100% / 5);
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-
-    &-link{
-      // width: 50px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      color: #999999;
-      font-size: 12px;
-
-     &-icon{
-        width: 30px;
-        height: 30px;
+.nav {
+  &__item {
+    &-link {
+      &-icon {
+        width: 45px;
+        height: 35px;
+        padding: 7px;
+        background-color: rgb(219, 216, 216);
       }
-
     }
   }
-
 }
-
-// .menu-active-link{
-//   color: red;
-// }
