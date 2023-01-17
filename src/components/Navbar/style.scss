@@ -1,0 +1,22 @@
+.nav{
+
+
+  &__list{
+    display: flex;
+
+  }
+
+  &__item{
+    width: calc(100% / 2);
+    // width: 100px;
+    border: 1px solid red;
+
+    &-link{
+      // width: 50px;
+      color: #999999;
+
+
+    }
+  }
+
+}
