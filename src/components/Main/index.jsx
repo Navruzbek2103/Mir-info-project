@@ -1,10 +1,10 @@
 import React from 'react'
 import "./style.scss"
-import Home from "./../../pages"
+import Today from "./../../pages/Today"
 
 
 export default function index() {
   return (
-    <Home />
+    <Today />
   )
 }

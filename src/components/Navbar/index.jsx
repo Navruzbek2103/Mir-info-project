@@ -9,42 +9,45 @@ import { BiWindows } from "react-icons/bi";
 
 
 const index = () => {
+
+  // let menuActiveLink = "color: {red}" // isActive o'xshamadi
+
    return (
      <header className="header">
        <div className="container">
          <nav className="nav">
            <ul className="nav__list">
              <li className="nav__item">
-               <NavLink to="" className="nav__item-link">
-                 <IoIosToday className='nav__item-link-icon' size={`2em`}/>
+               <NavLink to="/today" className="nav__item-link">
+                 <IoIosToday className='nav__item-link-icon'/>
                  Today
                </NavLink>
              </li>
 
              <li className="nav__item">
-               <NavLink to="" className="nav__item-link">
-                 <BiCategory className='nav__item-link-icon' size={`2em`}/>
+               <NavLink to="/categories" className="nav__item-link">
+                 <BiCategory className='nav__item-link-icon'/>
                  Categories
                </NavLink>
              </li>
 
              <li className="nav__item">
-               <NavLink to="" className="nav__item-link">
-                 <FaStar className='nav__item-link-icon' size={`2em`}/>
+               <NavLink to="/discover" className="nav__item-link">
+                 <FaStar className='nav__item-link-icon'/>
                  Discover
                </NavLink>
              </li>
 
              <li className="nav__item">
-               <NavLink to="" className="nav__item-link">
-                 <BsSearch className='nav__item-link-icon' size={`2em`}/>
+               <NavLink to="/search" className="nav__item-link">
+                 <BsSearch className='nav__item-link-icon'/>
                  Search
                </NavLink>
              </li>
 
              <li className="nav__item">
-               <NavLink to="" className="nav__item-link">
-                 <BiWindows className='nav__item-link-icon' size={`2em`}/>
+               <NavLink to="/pages" className="nav__item-link">
+                 <BiWindows className='nav__item-link-icon'/>
                  Pages
                </NavLink>
              </li>
