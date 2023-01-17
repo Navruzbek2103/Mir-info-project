@@ -26,6 +26,7 @@ a{
 
 h1, h2, h3, h4, h5, h6, p{
   margin: 0;
+<<<<<<< HEAD
   padding: 0; 
 }
 .container{
@@ -33,3 +34,12 @@ h1, h2, h3, h4, h5, h6, p{
   margin: 0 auto !important;
   padding: 0 20px !important;
  }
+=======
+  padding: 0;
+}
+
+/* :root{
+  Headerbrown: "#dfgw";
+  yellow: "2344"
+} */
+>>>>>>> 5ba22aad7bd60e6c9de462b44e0105b367e3e5b0

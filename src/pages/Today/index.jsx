@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./style.scss";
 import Img from "./../../assets/images/thumb-1.jpg";
