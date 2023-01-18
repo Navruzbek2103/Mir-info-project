@@ -17,3 +17,10 @@
 .monday__card + .monday__card{
     margin-top: 20px;
 }
+.monday__card{
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.monday__card:active{
+    transform: scale(0.98);
+}

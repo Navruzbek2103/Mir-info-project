@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import "./style.scss";
-import Img from "./../../assets/images/thumb-1.jpg";
+import Img from "./../../assets/images/images.jpg";
 const index = () => {
   return (
     <>

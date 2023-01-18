@@ -52,8 +52,8 @@ const App = () => {
       {/* <Main /> */}
 
       <div className="container">
-        <div className="row bg-white" style={styleRow}>
-          <div className="col-sm-3 border-end" style={styleMain}>
+        <div className="row" style={styleRow}>
+          <div className="col-sm-3 bg-white border-end" style={styleMain}>
             <NavbarMenu />
           </div>
           <div className="col-sm-9 p-0">

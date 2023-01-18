@@ -1,5 +1,7 @@
 import React from 'react';
+import Georg from "./../../assets/images/Gregory13.jpg";
 import "./style.scss"
+
 import Img from "./../../assets/images/thumb-1.jpg"
 
 const index = () => {
@@ -7,7 +9,7 @@ const index = () => {
         <>
          <div className="today__card w-100 bg-white feature-card rounded-4 mb-4">
               <img
-                src={Img}
+                src={Georg}
                 className="img-feature w-100 "
                 alt="images"
               />

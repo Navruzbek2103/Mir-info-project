@@ -4,8 +4,14 @@ import Img from "../../assets/images/thumb-5.jpg";
 const index = () => {
   return (
     <>
-      <div className="monday_section w-100">
-        <div className="monday_top d-flex justify-content-between w-100 align-items-start ">
+      <div className="monday_section w-100 my-4">
+        <div>
+          <span className="text-secondary fw-bold text-uppercase">
+            18 march{" "}
+          </span>
+          <h3 className="fw-bold my-2">Monday</h3>
+        </div>
+        <div className="monday_top  d-flex justify-content-between w-100 align-items-start ">
           <div
             className="monday__top--right w-50 d-flex
           flex-column g-2"
