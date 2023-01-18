@@ -24,7 +24,7 @@ const index = () => {
           delay: 0,
           x: { duration: 1 },
           default: { ease: "easeInOut" },
-        
+
         }}
       >
         {/* <div className="container"> */}

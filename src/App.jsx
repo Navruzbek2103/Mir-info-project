@@ -36,13 +36,7 @@ import Today from "./pages/Today";
 import Animated from "./components/Animated";
 
 const App = () => {
-  const styleMain = {
-    height: "100vh",
-  };
 
-  const styleRow = {
-    boxShadow: "inset 0px 0 20px 7px #EBEBEB",
-  };
 
   return (
     <>
@@ -50,11 +44,11 @@ const App = () => {
       {/* <Main /> */}
 
       <div className="container">
-        <div className="row" style={styleRow}>
-          <div className="col-sm-3 bg-white border-end" style={styleMain}>
+        <div className="row">
+          <div className="col-sm-2 bg-white border-end p-0">
             <NavbarMenu />
           </div>
-          <div className="col-sm-9 p-0">
+          <div className="col-sm-10 p-0">
             <Animated />
           </div>
         </div>
