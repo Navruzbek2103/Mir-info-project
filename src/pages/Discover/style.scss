@@ -1,0 +1,64 @@
+.discover {
+  &-hero {
+    &__item {
+      &-link {
+        max-width: 270px;
+        width: 100%;
+        height: 350px;
+        transition: all 0.2s ease-in;
+
+        &:hover{
+          box-shadow: 0 0 10px 2px #6200ff;
+        }
+
+        &:active{
+          transform: scale(.95);
+        }
+      }
+    }
+  }
+
+  &-authors {
+    &__inner {
+      &-btn {
+        background-color: #ff2d55;
+      }
+    }
+
+    &__item {
+      &-link {
+        transition: all .2s ease-in;
+        &:hover{
+          box-shadow: 0 0 5px 0 #6200ff;
+        }
+        &:active{
+          transform: scale(.97);
+        }
+
+        &-img{
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  }
+
+  &-fashion{
+
+    &__item{
+
+      &-link{
+        max-width: 220px;
+        width: 100%;
+
+        &:hover{
+          box-shadow: 0 0 10px 2px #6200ff;
+        }
+
+        &:active{
+          transform: scale(.95);
+        }
+      }
+    }
+  }
+}

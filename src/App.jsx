@@ -45,7 +45,7 @@ const App = () => {
 
       <div className="container">
         <div className="row">
-          <div className="col-sm-2 bg-white border-end p-0">
+          <div className="col-sm-2 bg-white  p-0">
             <NavbarMenu />
           </div>
           <div className="col-sm-10 p-0">

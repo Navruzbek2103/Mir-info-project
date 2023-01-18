@@ -54,7 +54,7 @@ const index = () => {
     //   </div>
     // </header>
 
-    <nav className="nav my-5 p-4">
+    <nav className="nav my-5 p-4 position-fixed">
       <ul className="nav__list d-flex flex-column gap-5">
         <li className="nav__item">
           <NavLink to="/" className="nav__item-link d-flex align-items-center gap-3 text-dark">
