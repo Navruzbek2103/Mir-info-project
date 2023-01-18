@@ -89,7 +89,7 @@ const index = () => {
           </ul>
         </section>
 
-        <section className="discover-authors py-3 border-top">
+        <section className="discover-authors pt-3 pb-4 border-top">
           <div className="discover-authors__inner mb-4 d-flex justify-content-between align-items-center">
             <h2 className="discover-authors__inner-title fw-semibold fs-4 text-capitalize">
               Popular authors
@@ -171,7 +171,7 @@ const index = () => {
           </ul>
         </section>
 
-        <section className="discover-fashion border-top py-3">
+        <section className="discover-fashion border-top pt-3 pb-4">
           <h2 className="discover-fashion__title fs-4 fw-semibold mb-3">
             The fashion week
           </h2>
@@ -236,7 +236,6 @@ const index = () => {
                 </h3>
               </Link>
             </li>
-
           </ul>
         </section>
       </div>

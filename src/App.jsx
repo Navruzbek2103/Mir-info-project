@@ -48,7 +48,7 @@ const App = () => {
           <div className="col-sm-2 bg-white  p-0">
             <NavbarMenu />
           </div>
-          <div className="col-sm-10 p-0">
+          <div className="col-sm-10 p-0 border-start">
             <Animated />
           </div>
         </div>

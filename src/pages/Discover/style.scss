@@ -50,6 +50,7 @@
       &-link{
         max-width: 220px;
         width: 100%;
+        transition: all .2s ease-in;
 
         &:hover{
           box-shadow: 0 0 10px 2px #6200ff;
