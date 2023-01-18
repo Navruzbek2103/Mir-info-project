@@ -1,11 +1,15 @@
 import React from "react";
 import Img from "./../../assets/images/thumb-15.jpg";
 import "./style.scss";
+import { motion } from "framer-motion";
 const index = () => {
   return (
     <>
       <div>
-        <div className="card w-100 d-flex flex-row justify-content-start mt-4 border-end-0 border-start-0 border-top-0 gap-3 align-items-start">
+        <motion.div
+          whileTap={{ scale: 0.98 }}
+          className="card w-100 d-flex flex-row justify-content-start mt-4 border-end-0 border-start-0 border-top-0 gap-3 align-items-start"
+        >
           <img src={Img} className="card__img" alt="images" />
           <div className="d-flex flex-column align-items-start justify-content-between">
             <span className="text-secondary fw-bold text-uppercase">
@@ -25,8 +29,12 @@ const index = () => {
               <p className="text-secondary mx-2">Elena Anka </p>
             </div>
           </div>
-        </div>
-        <div className="card d-flex flex-row justify-content-start mt-4 border-end-0 border-start-0 border-top-0 gap-3 align-items-start">
+        </motion.div>
+        <motion.div
+          whileTap={{ scale: 0.98 }}
+
+          className="card d-flex flex-row justify-content-start mt-4 border-end-0 border-start-0 border-top-0 gap-3 align-items-start"
+        >
           <img src={Img} className="card__img" alt="images" />
           <div className="d-flex flex-column align-items-start justify-content-between">
             <span className="text-secondary fw-bold text-uppercase">
@@ -46,7 +54,7 @@ const index = () => {
               <p className="text-secondary mx-2">Elena Anka </p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );

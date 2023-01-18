@@ -16,13 +16,13 @@ const index = () => {
     <>
       <motion.div
         className="w-100 col-12"
-        style={{ originX: 0.5 }} 
-        initial={{ opacity: 1, x: 0 }}
+        style={{ originX: 0.5 , x:30,}}
+        initial={{ opacity: 1, x: 0}}
         animate={{ opacity: 1, transition: { duration: 0.1 },}}
-        exit={{ opacity: 1, transitionDuration: 0.1, x: -10000 }}
+        exit={{ opacity: 1, transitionDuration: 0.1, y: -10000 }}
         transition={{
           delay: 0,
-          x: { duration: 0.1 },
+          x: { duration: 1 },
           default: { ease: "easeInOut" },
         
         }}

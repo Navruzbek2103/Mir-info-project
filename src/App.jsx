@@ -37,7 +37,7 @@ import Animated from "./components/Animated";
 
 const App = () => {
   const styleMain = {
-    height: "auto",
+    height: "100vh",
   };
 
   const styleRow = {

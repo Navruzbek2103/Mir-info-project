@@ -7,7 +7,7 @@ import Img from "./../../assets/images/thumb-1.jpg"
 const index = () => {
     return (
         <>
-         <div className="today__card w-100 bg-white feature-card rounded-4 mb-4">
+         <div className="today__card card w-100 bg-white feature-card rounded-4 mb-4">
               <img
                 src={Georg}
                 className="img-feature w-100 "

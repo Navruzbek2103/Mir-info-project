@@ -7,7 +7,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  background: #f8f8f8;
+  overflow-x: hidden;
 }
 
 ol,
@@ -41,7 +41,6 @@ p {
   margin: 0 auto !important;
   padding: 0 20px !important;
 }
-
 
 /* :root{
   Headerbrown: "#dfgw";
