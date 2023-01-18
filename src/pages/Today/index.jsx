@@ -8,6 +8,7 @@ import FeatureCard from "./../../UI/Featurecard";
 import { FaComment } from "react-icons/fa";
 import Sunday from "./../../UI/Sunday";
 import Monday from "./../../pages/Monday/index";
+import TodayCard from "./../../UI/TodayCard";
 
 const index = () => {
   return (
@@ -83,6 +84,7 @@ const index = () => {
               <Monday />
               <Week />
               <Sunday />
+              <TodayCard />
             </div>
           </div>
         </div>
