@@ -23,7 +23,7 @@ const index = () => {
         transition={{
           delay: 0,
           x: { duration: 1 },
-          default: { ease: "easeInOut" },
+          default: { ease: "backInOut" },
         
         }}
       >

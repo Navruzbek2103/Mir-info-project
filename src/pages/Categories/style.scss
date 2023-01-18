@@ -1,12 +1,32 @@
-
-.cate_img{
-    width: 100%;
-    height: 150px;
+.cate_img {
+  width: 100%;
+  height: 150px;
 }
-.parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 2fr 3fr;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    }
+
+.category__card {
+  width: 400px!important;
+}
+.parent__card {
+  width: 500px !important;
+  height: 300px;
+}
+.parents{
+    display: flex!important;
+    justify-content: space-between!important;
+    align-items: flex-start;
+    gap: 20px;
+}
+.parent_img {
+  width: 100%;
+  height: 300px;
+}
+.category__title{
+    left: 20px;
+    bottom: 20px;
+}
+@media screen and (max-width: 1115px) {
+  .category__card {
+    width: 100%;
+  }
+
+}
