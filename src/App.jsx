@@ -27,12 +27,7 @@
 import React from "react";
 
 import NavbarMenu from "./components/Navbar";
-import { Routes, Route, useLocation } from "react-router-dom";
-import Categories from "./pages/Categories";
-import Discover from "./pages/Discover";
-import Search from "./pages/Search";
-import Pages from "./pages/Pages";
-import Today from "./pages/Today";
+
 import Animated from "./components/Animated";
 
 const App = () => {

@@ -11,81 +11,104 @@ const index = () => {
     <motion.div
       initial={{ opacity: 0, transitionDuration: 0.1 }}
       animate={{ opacity: 1, transition: { duration: 0.1 } }}
-      exit={{ opacity: 1, transitionDuration: 0.1, y: -10000 }}
+      exit={{ opacity: 0.5, y: -10000 }}
       transition={{
         delay: 0,
-        x: { duration: 1 },
-        default: { ease: "easeInOut" },
+        x: { duration: 2 },
+        default: { ease: "backInOut" },
       }}
     >
-      <div className="row">
-        <div className="container">
-          <div className="px-2 my-2">
-            <h1 className="fw-bold my-2">Categories</h1>
-            <div class="text-center d-grid d-flex flex-row mx-auto flex-wrap flex-lg-wrap flex-md-wrap flex-sm-wrap col-col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 w-100 gap-3">
-              <motion.div
-                whileTap={{ scale: 0.99 }}
-                class=" bg-secondary category__card position-relative rounded-2 col-xxl-4 col-xl-3  col-lg-3 col-md-12 col-sm-12 col-12"
-              >
-                <img src={Img} className="cate_img rounded-2" alt="images" />
-                <h3 className="fw-bold position-absolute bottom-0 text-white fs-4">
-                  Sports
-                </h3>
-              </motion.div>
-              <motion.div
-                whileTap={{ scale: 0.99 }}
-                class="bg-secondary category__card  position-relative rounded-2 col-xxl-4 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12"
-              >
-                <img src={Img1} className="cate_img rounded-2" alt="images" />
-                <h1 className="fw-bold position-absolute bottom-0 text-white fs-4">
-                  Library
-                </h1>
-              </motion.div>
-              <motion.div
-                whileTap={{ scale: 0.99 }}
-                class="bg-secondary category__card  position-relative rounded-2 col-xxl-4 col-xl-3 col-lg-3 col-md-12 col-12 col-sm-12"
-              >
-                <img src={Img2} className="cate_img rounded-2" alt="images" />
-                <h1 className="fw-bold position-absolute bottom-0 text-white fs-4">
-                  Travel
-                </h1>
-              </motion.div>
-              <motion.div
-                whileTap={{ scale: 0.99 }}
-                class="bg-secondary category__card  position-relative rounded-2 col-xxl-4 col-xl-3 col-lg-3 col-md-12 col-12 col-sm-12"
-              >
-                <img src={Img3} className="cate_img rounded-2" alt="images" />
-                <h1 className="fw-bold position-absolute bottom-0 text-white fs-4 ">
-                  Food
-                </h1>
-              </motion.div>
-              <motion.div
-                whileTap={{ scale: 0.99 }}
-                class="bg-secondary category__card  position-relative rounded-2 col-xxl-4 col-xl-3 col-lg-3 col-md-12 col-12 col-sm-12"
-              >
-                <img src={Img4} className="cate_img rounded-2" alt="images" />
-                <h1 className="fw-bold position-absolute bottom-0 text-white fs-4">
-                  Food
-                </h1>
-              </motion.div>
-              <motion.div
-                whileTap={{ scale: 0.99 }}
-                class="bg-secondary category__card  position-relative rounded-2 col-xxl-4 col-xl-3 col-lg-3 col-md-12 col-12 col-sm-12"
-              >
-                <img src={Img2} className="cate_img rounded-2" alt="images" />
-                <h1 className="fw-bold position-absolute bottom-0 text-white fs-4">
-                  Food
-                </h1>
-              </motion.div>
+      <div className="cate px-4 ">
+        <div>
+          <h1 className="fw-bold my-2">Categories</h1>
+        </div>
+        <div class="d-flex mx-auto gap-4 justify-content-between flex-wrap">
+          <motion.div
+            whileTap={{ scale: 0.99 }}
+            class=" bg-secondary category__card position-relative rounded-2"
+          >
+            <img src={Img} className="cate_img rounded-2" alt="images" />
+            <h3 className="fw-bold position-absolute bottom-0 text-white fs-4">
+              Sports
+            </h3>
+          </motion.div>
+          <motion.div
+            whileTap={{ scale: 0.99 }}
+            class="bg-secondary category__card  position-relative rounded-2 "
+          >
+            <img src={Img1} className="cate_img rounded-2" alt="images" />
+            <h1 className="fw-bold position-absolute bottom-0 text-white fs-4">
+              Library
+            </h1>
+          </motion.div>
+          <motion.div
+            whileTap={{ scale: 0.99 }}
+            class="bg-secondary category__card  position-relative rounded-2"
+          >
+            <img src={Img2} className="cate_img rounded-2" alt="images" />
+            <h1 className="fw-bold position-absolute bottom-0 text-white fs-4">
+              Travel
+            </h1>
+          </motion.div>
+          <motion.div
+            whileTap={{ scale: 0.99 }}
+            class="bg-secondary category__card  position-relative rounded-2"
+          >
+            <img src={Img3} className="cate_img rounded-2" alt="images" />
+            <h1 className="fw-bold position-absolute bottom-0 text-white fs-4 ">
+              Food
+            </h1>
+          </motion.div>
+          <motion.div
+            whileTap={{ scale: 0.99 }}
+            class="bg-secondary category__card  position-relative rounded-2"
+          >
+            <img src={Img4} className="cate_img rounded-2" alt="images" />
+            <h1 className="fw-bold position-absolute bottom-0 text-white fs-4">
+              Food
+            </h1>
+          </motion.div>
+          <motion.div
+            whileTap={{ scale: 0.99 }}
+            class="bg-secondary category__card  position-relative rounded-2"
+          >
+            <img src={Img2} className="cate_img rounded-2" alt="images" />
+            <h1 className="fw-bold position-absolute bottom-0 text-white fs-4">
+              Food
+            </h1>
+          </motion.div>
+        </div>
+        <div className="category_box my-4">
+          <div className="category__top">
+            <span className="fw-bold text-uppercase text-secondary">
+              Recent posts
+            </span>
+            <div className="d-flex justify-content-between align-items-center">
+              <h3 className="fw-bold my-2">Sports</h3>
+              <button className="btn btn-danger rounded-4 py-0 d-flex justify-content-center align-items-center">
+                See All
+              </button>
             </div>
-            <div className="category_box">
-              <div className="parent">
-                <div>1</div>
-                <div>1</div>
-                <div>1</div>
-                <div>1</div>
-              </div>
-            </div>
+          </div>
+          <div className="parents d-flex w-100 justify-content-between flex-row">
+            <motion.div
+              whileTap={{ scale: 0.99 }}
+              className=" bg-secondary parent__card position-relative rounded-2 "
+            >
+              <img src={Img1} className="parent_img rounded-2" alt="images" />
+              <h3 className="fw-bold category__title position-absolute  text-white fs-6">
+                Moto-Cross: The Champions Made the Show
+              </h3>
+            </motion.div>
+            <motion.div
+              whileTap={{ scale: 0.99 }}
+              className="parent__card position-relative rounded-2 "
+            >
+              <img src={Img3} className="parent_img rounded-2" alt="images" />
+              <h3 className="fw-bold category__title position-absolute  text-white fs-6">
+                Moto-Cross: The Champions Made the Show
+              </h3>
+            </motion.div>
           </div>
         </div>
       </div>
