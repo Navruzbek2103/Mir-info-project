@@ -10,11 +10,23 @@ import { FaComment } from "react-icons/fa";
 import Sunday from "./../../UI/Sunday";
 import Monday from "./../../pages/Monday/index";
 import TodayCard from "./../../UI/TodayCard";
-
+import { motion } from "framer-motion";
 const index = () => {
   return (
     <>
-      <section className="w-100 col-12">
+      <motion.div
+        className="w-100 col-12"
+        style={{ originX: 0.5 }} 
+        initial={{ opacity: 1, x: 0 }}
+        animate={{ opacity: 1, transition: { duration: 0.1 },}}
+        exit={{ opacity: 1, transitionDuration: 0.1, x: -10000 }}
+        transition={{
+          delay: 0,
+          x: { duration: 0.1 },
+          default: { ease: "easeInOut" },
+        
+        }}
+      >
         {/* <div className="container"> */}
         <div className="d-flex flex-column px-4">
           <div className="today-section d-flex flex-column">
@@ -89,7 +101,7 @@ const index = () => {
           </div>
         </div>
         {/* </div> */}
-      </section>
+      </motion.div>
     </>
   );
 };

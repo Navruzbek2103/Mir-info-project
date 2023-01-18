@@ -24,20 +24,18 @@
 
 // export default App;
 
-
-
-
 import React from "react";
+
 import NavbarMenu from "./components/Navbar";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Categories from "./pages/Categories";
 import Discover from "./pages/Discover";
 import Search from "./pages/Search";
 import Pages from "./pages/Pages";
-import Today from "./pages/Today"
+import Today from "./pages/Today";
+import Animated from "./components/Animated";
 
 const App = () => {
-
   const styleMain = {
     height: "auto",
   };
@@ -57,13 +55,7 @@ const App = () => {
             <NavbarMenu />
           </div>
           <div className="col-sm-9 p-0">
-            <Routes>
-              <Route path="/" element={<Today />} />
-              <Route path="/categories" element={<Categories />} />
-              <Route path="/discover" element={<Discover />} />
-              <Route path="/search" element={<Search />} />
-              <Route path="/pages" element={<Pages />} />
-            </Routes>
+            <Animated />
           </div>
         </div>
       </div>
