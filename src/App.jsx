@@ -27,7 +27,12 @@
 import React from "react";
 
 import NavbarMenu from "./components/Navbar";
-
+import { Routes, Route, useLocation } from "react-router-dom";
+import Categories from "./pages/Categories";
+import Discover from "./pages/Discover";
+import Search from "./pages/Search";
+import Pages from "./pages/Pages";
+import Today from "./pages/Today";
 import Animated from "./components/Animated";
 
 const App = () => {
@@ -43,7 +48,7 @@ const App = () => {
           <div className="col-sm-2 bg-white border-end p-0">
             <NavbarMenu />
           </div>
-          <div className="col-sm-10">
+          <div className="col-sm-10 p-0">
             <Animated />
           </div>
         </div>
