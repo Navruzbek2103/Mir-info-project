@@ -11,14 +11,14 @@ const index = () => {
     <motion.div
       initial={{ opacity: 0, transitionDuration: 0.1 }}
       animate={{ opacity: 1, transition: { duration: 0.1 } }}
-      exit={{ opacity: 1, transitionDuration: 0.1, y: -10000 }}
+      exit={{ opacity: 0.5, y: -10000 }}
       transition={{
         delay: 0,
-        x: { duration: 1 },
+        x: { duration: 2 },
         default: { ease: "backInOut" },
       }}
     >
-      <div className="cate px-3 ">
+      <div className="cate px-4 ">
         <div>
           <h1 className="fw-bold my-2">Categories</h1>
         </div>

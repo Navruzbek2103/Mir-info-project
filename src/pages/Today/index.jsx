@@ -19,10 +19,10 @@ const index = () => {
         style={{ originX: 0.5 , x:30,}}
         initial={{ opacity: 1, x: 0}}
         animate={{ opacity: 1, transition: { duration: 0.1 },}}
-        exit={{ opacity: 1, transitionDuration: 0.1, y: -10000 }}
+        exit={{ opacity: 0.5, y: -10000 }}
         transition={{
           delay: 0,
-          x: { duration: 1 },
+          x: { duration: 2 },
           default: { ease: "backInOut" },
         
         }}

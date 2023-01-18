@@ -4,7 +4,7 @@
 }
 
 .category__card {
-  width: 400px!important;
+  width: 510px!important;
 }
 .parent__card {
   width: 500px !important;
@@ -23,6 +23,18 @@
 .category__title{
     left: 20px;
     bottom: 20px;
+}
+
+@media screen and (max-width:1335px){
+
+    .category__card{
+        width: 48%!important;
+    }
+}
+@media screen and (max-width: 780px) {
+    .category__card{
+        width: 100%!important;
+    }
 }
 @media screen and (max-width: 1115px) {
   .category__card {
