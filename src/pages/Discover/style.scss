@@ -103,4 +103,28 @@
       }
     }
   }
+
+  &-popular {
+    &__wrapper {
+      &-btn {
+        background-color: #ff2d55;
+      }
+    }
+
+    &__item {
+      &-img {
+        width: 200px;
+      }
+
+      &-inner {
+        &-subtitle {
+          color: #999797;
+        }
+
+        &-box {
+          color: #b2b1b1;
+        }
+      }
+    }
+  }
 }

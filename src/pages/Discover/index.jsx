@@ -411,12 +411,93 @@ const index = () => {
                 </div>
               </Link>
             </li>
-
           </ul>
         </section>
 
-        <section className="discover-popular py-3 border-top">
-          
+        <section className="discover-popular border-top py-3">
+          <h2 className="discover-popular__wrapper-title text-capitalize fw-semibold fs-4 mb-3">
+            Popular last week
+          </h2>
+          <ul className="discover-popular__list d-flex flex-column gap-3">
+            <li className="discover-popular__item">
+              <Link
+                to=""
+                className="discover-popular__item-link  d-flex gap-3 pb-2"
+              >
+                <img
+                  src={PicsumImage3}
+                  alt="card img"
+                  className="discover-popular__item-img rounded-2"
+                />
+                <div className="discover-popular__item-inner border-bottom border-3 w-100">
+                  <h3 className="discover-popular__item-inner-subtitle fw-bold fs-5 mb-2">
+                    Fashion
+                  </h3>
+                  <h4 className="discover-popular__item-inner-title fw-bold text-dark mb-2">
+                    The Crocodile, Man's Best Friend?
+                  </h4>
+                  <div className="discover-popular__item-inner-box d-flex align-items-center gap-2">
+                    <CiClock2 className="d-flex flex-row-reverse" />
+                    <p className="discover-popular__item-inner-box-text">
+                      2 hour ago
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            </li>
+            <li className="discover-popular__item">
+              <Link
+                to=""
+                className="discover-popular__item-link  d-flex gap-3 pb-2"
+              >
+                <img
+                  src={PicsumImage3}
+                  alt="card img"
+                  className="discover-popular__item-img rounded-2"
+                />
+                <div className="discover-popular__item-inner border-bottom border-3 w-100">
+                  <h3 className="discover-popular__item-inner-subtitle fw-bold fs-5 mb-2">
+                    Fashion
+                  </h3>
+                  <h4 className="discover-popular__item-inner-title fw-bold text-dark mb-2">
+                    The Crocodile, Man's Best Friend?
+                  </h4>
+                  <div className="discover-popular__item-inner-box d-flex align-items-center gap-2">
+                    <CiClock2 className="d-flex flex-row-reverse" />
+                    <p className="discover-popular__item-inner-box-text">
+                      2 hour ago
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            </li>
+            <li className="discover-popular__item">
+              <Link
+                to=""
+                className="discover-popular__item-link  d-flex gap-3 pb-2"
+              >
+                <img
+                  src={PicsumImage3}
+                  alt="card img"
+                  className="discover-popular__item-img rounded-2"
+                />
+                <div className="discover-popular__item-inner border-bottom border-3 w-100">
+                  <h3 className="discover-popular__item-inner-subtitle fw-bold fs-5 mb-2">
+                    Fashion
+                  </h3>
+                  <h4 className="discover-popular__item-inner-title fw-bold text-dark mb-2">
+                    The Crocodile, Man's Best Friend?
+                  </h4>
+                  <div className="discover-popular__item-inner-box d-flex align-items-center gap-2">
+                    <CiClock2 className="d-flex flex-row-reverse" />
+                    <p className="discover-popular__item-inner-box-text">
+                      2 hour ago
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            </li>
+          </ul>
         </section>
       </div>
     </motion.div>
