@@ -341,7 +341,7 @@ const index = () => {
           <h2 className="discover-mustSee__title fw-bold fs-4 mb-3">
             Must See
           </h2>
-          <ul className="discover-mustSee__list d-flex gap-2 flex-wrap">
+          <ul className="discover-mustSee__list d-flex gap-3 flex-wrap">
             <li className="discover-mustSee__item">
               <Link
                 to=""
