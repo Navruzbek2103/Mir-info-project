@@ -1,6 +1,7 @@
 .discover {
   &-hero {
     &__item {
+      margin: 0 auto;
       &-link {
         max-width: 270px;
         width: 100%;
@@ -61,30 +62,45 @@
     }
   }
 
-  &-lifestyle{
-
-    &__wrapper{
-      &-btn{
+  &-lifestyle {
+    &__wrapper {
+      &-btn {
         background-color: #ff2d55;
       }
     }
 
-    &__item{
-      &-img{
+    &__item {
+      &-img {
         width: 200px;
       }
 
-      &-inner{
-
-        &-subtitle{
+      &-inner {
+        &-subtitle {
           color: #999797;
         }
 
-        &-box{
+        &-box {
           color: #b2b1b1;
         }
       }
     }
+  }
 
+  &-mustSee {
+    &__item {
+      &-link {
+        width: 280px;
+      }
+
+      &-inner {
+        &-box {
+          color: aliceblue;
+        }
+
+        &-title {
+          font-size: 22px;
+        }
+      }
+    }
   }
 }

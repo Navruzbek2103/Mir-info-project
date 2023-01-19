@@ -6,8 +6,7 @@ import { NavLink, Link } from "react-router-dom";
 import PicsumImage2 from "./../../assets/images/thumb-15.jpg";
 import { AiFillStar } from "react-icons/ai";
 import PicsumImage3 from "./../../assets/images/future.jpg";
-import {CiClock2} from "react-icons/ci"
-
+import { CiClock2 } from "react-icons/ci";
 
 const index = () => {
   return (
@@ -180,7 +179,7 @@ const index = () => {
           <h2 className="discover-fashion__title fs-4 fw-semibold mb-3">
             The fashion week
           </h2>
-          <ul className="discover-fashion__list d-flex gap-3">
+          <ul className="discover-fashion__list d-flex flex-wrap gap-3">
             <li className="discover-fashion__item">
               <Link
                 to=""
@@ -327,7 +326,7 @@ const index = () => {
                     The Best Diet for a Flatter Belly
                   </h4>
                   <div className="discover-lifestyle__item-inner-box d-flex align-items-center gap-2">
-                    <CiClock2 className="d-flex flex-row-reverse"/>
+                    <CiClock2 className="d-flex flex-row-reverse" />
                     <p className="discover-lifestyle__item-inner-box-text">
                       2 hour ago
                     </p>
@@ -336,6 +335,88 @@ const index = () => {
               </Link>
             </li>
           </ul>
+        </section>
+
+        <section className="discover-mustSee py-3 border-top">
+          <h2 className="discover-mustSee__title fw-bold fs-4 mb-3">
+            Must See
+          </h2>
+          <ul className="discover-mustSee__list d-flex gap-2 flex-wrap">
+            <li className="discover-mustSee__item">
+              <Link
+                to=""
+                className="discover-mustSee__item-link d-flex position-relative rounded-3 overflow-hidden"
+              >
+                <img
+                  src={PicsumImage3}
+                  alt="card img"
+                  className="discover-mustSee__item-img w-100"
+                />
+                <div className="discover-mustSee__item-inner position-absolute m-3 start-0 bottom-0">
+                  <div className="discover-mustSee__item-inner-box mb-2 d-flex align-items-center gap-2">
+                    <CiClock2 size={`1.1em`} />
+                    <p className="discover-mustSee__item-inner-box-text">
+                      2 days ago
+                    </p>
+                  </div>
+                  <h3 className="discover-mustSee__item-inner-title fw-bold text-white">
+                    Edmond at the Royal Palace Theatre
+                  </h3>
+                </div>
+              </Link>
+            </li>
+            <li className="discover-mustSee__item">
+              <Link
+                to=""
+                className="discover-mustSee__item-link d-flex position-relative rounded-3 overflow-hidden"
+              >
+                <img
+                  src={PicsumImage3}
+                  alt="card img"
+                  className="discover-mustSee__item-img w-100"
+                />
+                <div className="discover-mustSee__item-inner position-absolute m-3 start-0 bottom-0">
+                  <div className="discover-mustSee__item-inner-box mb-2 d-flex align-items-center gap-2">
+                    <CiClock2 size={`1.1em`} />
+                    <p className="discover-mustSee__item-inner-box-text">
+                      2 days ago
+                    </p>
+                  </div>
+                  <h3 className="discover-mustSee__item-inner-title fw-bold text-white">
+                    Edmond at the Royal Palace Theatre
+                  </h3>
+                </div>
+              </Link>
+            </li>
+            <li className="discover-mustSee__item">
+              <Link
+                to=""
+                className="discover-mustSee__item-link d-flex position-relative rounded-3 overflow-hidden"
+              >
+                <img
+                  src={PicsumImage3}
+                  alt="card img"
+                  className="discover-mustSee__item-img w-100"
+                />
+                <div className="discover-mustSee__item-inner position-absolute m-3 start-0 bottom-0">
+                  <div className="discover-mustSee__item-inner-box mb-2 d-flex align-items-center gap-2">
+                    <CiClock2 size={`1.1em`} />
+                    <p className="discover-mustSee__item-inner-box-text">
+                      2 days ago
+                    </p>
+                  </div>
+                  <h3 className="discover-mustSee__item-inner-title fw-bold text-white">
+                    Edmond at the Royal Palace Theatre
+                  </h3>
+                </div>
+              </Link>
+            </li>
+
+          </ul>
+        </section>
+
+        <section className="discover-popular py-3 border-top">
+          
         </section>
       </div>
     </motion.div>
