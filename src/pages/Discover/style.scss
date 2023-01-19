@@ -7,12 +7,12 @@
         height: 350px;
         transition: all 0.2s ease-in;
 
-        &:hover{
+        &:hover {
           box-shadow: 0 0 10px 2px #6200ff;
         }
 
-        &:active{
-          transform: scale(.95);
+        &:active {
+          transform: scale(0.95);
         }
       }
     }
@@ -27,15 +27,15 @@
 
     &__item {
       &-link {
-        transition: all .2s ease-in;
-        &:hover{
+        transition: all 0.2s ease-in;
+        &:hover {
           box-shadow: 0 0 5px 0 #6200ff;
         }
-        &:active{
-          transform: scale(.97);
+        &:active {
+          transform: scale(0.97);
         }
 
-        &-img{
+        &-img {
           width: 100px;
           height: 100px;
         }
@@ -43,23 +43,48 @@
     }
   }
 
-  &-fashion{
-
-    &__item{
-
-      &-link{
+  &-fashion {
+    &__item {
+      &-link {
         max-width: 220px;
         width: 100%;
-        transition: all .2s ease-in;
+        transition: all 0.2s ease-in;
 
-        &:hover{
+        &:hover {
           box-shadow: 0 0 10px 2px #6200ff;
         }
 
-        &:active{
-          transform: scale(.95);
+        &:active {
+          transform: scale(0.95);
         }
       }
     }
+  }
+
+  &-lifestyle{
+
+    &__wrapper{
+      &-btn{
+        background-color: #ff2d55;
+      }
+    }
+
+    &__item{
+      &-img{
+        width: 200px;
+      }
+
+      &-inner{
+
+        &-subtitle{
+          color: #999797;
+        }
+
+        &-box{
+          color: #b2b1b1;
+        }
+      }
+    }
+
   }
 }
